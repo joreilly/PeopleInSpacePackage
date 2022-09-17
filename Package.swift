@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "PeopleInSpace",
+    name: "PeopleInSpaceKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v14)
     ],
     products: [
         .library(
-            name: "PeopleInSpace",
-            targets: ["PeopleInSpace"]
+            name: "PeopleInSpaceKit",
+            targets: ["PeopleInSpaceKit"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "PeopleInSpace",
-            path: "./PeopleInSpace.xcframework"
+            name: "PeopleInSpaceKit",
+            path: "./PeopleInSpaceKit.xcframework"
         ),
     ]
 )
