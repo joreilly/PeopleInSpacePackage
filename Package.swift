@@ -1,10 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "PeopleInSpaceKit",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14),
+.macOS(.v12)
     ],
     products: [
         .library(

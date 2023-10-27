@@ -1,0 +1,8 @@
+framework module PeopleInSpaceKit {
+    umbrella header "PeopleInSpaceKit.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
